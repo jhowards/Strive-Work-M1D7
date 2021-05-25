@@ -77,9 +77,12 @@
        footer.innerText = "This text has been changed"
     }
 
-    // const linkClass = function(){
-    // let getLinks = document.querySelectorAll("#links td")[0]
-    //     getLinks.className = "linkClass"
-    // }
+    const linkClass = function(){
+    let getLinks = document.querySelectorAll("#links td")
+        
+        for(let i = 0; i < getLinks.length; i++){
+          getLinks[i].className = "linkClass"
+        }
+    }
 
 </script>

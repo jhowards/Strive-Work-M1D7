@@ -57,6 +57,7 @@
 </form>
 
 <button onclick="toggleImage()">Remove Images</button>
+<button onclick="changeColor()">Change Price Color</button>
 </body>
 <footer>
     <p id="footerName">James's Phone Shop</p> 
@@ -64,6 +65,7 @@
 </footer>
 
 </html>
+
 
 <script>
     const h1Change = function(){
@@ -100,9 +102,20 @@
             getImages[i].style.display = "none"
   }
 }
-
-
 }
-    
+
+const changeColor = function(){  
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+
+  let getPrice = document.querySelectorAll("#price td")
+   for(let i = 0; i < getPrice.length; i++){
+    getPrice[i].style.color = "#" + randomColor 
+   }
+  
+}
+
+
+
+
 
 </script>

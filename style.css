@@ -63,12 +63,14 @@ footer {
 }
 
 button{
-    position: absolute;
-    top: 80%;
-    left: 40%;
-    margin: 30px;
+    display: flex;
+    margin: 20px;
+    margin-left: 45%;
     font-size: 16px;
     background-color: #4CAF50;
     color: white;
     padding: 15px 32px;
+    float:center;
+   margin-right:5px;
+   
 }

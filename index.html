@@ -37,12 +37,12 @@
         <td>£599.99</td>
         <td>£198.99</td>
       </tr>
-      <tr>
-        <td>https://www.amazon.co.uk/Samsung-Galaxy-Smartphone-Android-Phantom/dp/B08QNCPQR5/</td>
-        <td>https://www.amazon.co.uk/Smartphone-Punch-hole-Snapdragon-Penta-Camera-Official/dp/B08G9PP3HL</td>
-        <td>https://www.amazon.co.uk/New-Apple-iPhone-12-128GB/dp/B08L5QVFCT</td>
-        <td>https://www.amazon.co.uk/Google-Android-Mobile-Battery-Resistant-Just-Black/dp/B08JLSQWHD</td>
-        <td>https://www.amazon.co.uk/Motorola-Smartphones-Qualcomm-Snapdragon-octa-core/dp/B08Y5J2431</td>
+      <tr id="links">
+        <td><a href="https://www.amazon.co.uk/Samsung-Galaxy-Smartphone-Android-Phantom/dp/B08QNCPQR5/">https://www.amazon.co.uk/Samsung-Galaxy-Smartphone-Android-Phantom/dp/B08QNCPQR5/</a></td>
+        <td><a href="https://www.amazon.co.uk/Smartphone-Punch-hole-Snapdragon-Penta-Camera-Official/dp/B08G9PP3HL">https://www.amazon.co.uk/Smartphone-Punch-hole-Snapdragon-Penta-Camera-Official/dp/B08G9PP3HL</a></td>
+        <td><a href="https://www.amazon.co.uk/New-Apple-iPhone-12-128GB/dp/B08L5QVFCT">https://www.amazon.co.uk/New-Apple-iPhone-12-128GB/dp/B08L5QVFCT</a></td>
+        <td><a href="https://www.amazon.co.uk/Google-Android-Mobile-Battery-Resistant-Just-Black/dp/B08JLSQWHD">https://www.amazon.co.uk/Google-Android-Mobile-Battery-Resistant-Just-Black/dp/B08JLSQWHD</a></td>
+        <td><a href="https://www.amazon.co.uk/Motorola-Smartphones-Qualcomm-Snapdragon-octa-core/dp/B08Y5J2431">https://www.amazon.co.uk/Motorola-Smartphones-Qualcomm-Snapdragon-octa-core/dp/B08Y5J2431</a></td>
       </tr>
       
 </table>
@@ -73,8 +73,13 @@
     }
 
     const footerChange = function(){
-       const footer = document.querySelector(".p, #footerAddress") 
+       const footer = document.querySelector("#footerAddress") 
        footer.innerText = "This text has been changed"
     }
+
+    // const linkClass = function(){
+    // let getLinks = document.querySelectorAll("#links td")[0]
+    //     getLinks.className = "linkClass"
+    // }
 
 </script>

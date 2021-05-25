@@ -19,7 +19,7 @@ EX6.: Add a message board where the user can type a message in it (no real posti
 
 
 
-This additional exercises, from 7 to 12, use JavaScript as well
+<b>This additional exercises, from 7 to 12, use JavaScript as well</b>
 
 
 

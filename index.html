@@ -3,6 +3,8 @@
 <head>
   <title>Smartphone Shop Website</title>
   <link rel="stylesheet" href="style.css"/>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
 
@@ -24,11 +26,11 @@
         <td>The Moto G50 gives you the next generation speed you want. Movies that download in seconds? With 5G speed, you got it.</td>
       </tr>
       <tr>
-        <td><img src=https://img.router-switch.com/media/customoptions/169/1/1/samsung-galaxy-s21-5g-sm-g9910-purple-1.jpg></td>
-        <td><img src=https://buycheapphones.co.uk/wp-content/uploads/2020/09/Xiaomi-POCO-X3-NFC-4G-blue.jpg></td>
-        <td><img src=https://brain-images-ssl.cdn.dixons.com/2/5/10223752/l_10223752_001.jpg></td>
-        <td><img src=https://images-na.ssl-images-amazon.com/images/I/81AqwYyZjzL._AC_SL1500_.jpg></td>
-        <td><img src=https://www.gizmochina.com/wp-content/uploads/2021/03/cats-15-500x500.jpg></td>
+        <td><img src=https://img.router-switch.com/media/customoptions/169/1/1/samsung-galaxy-s21-5g-sm-g9910-purple-1.jpg class="imageClass"></td>
+        <td><img src=https://buycheapphones.co.uk/wp-content/uploads/2020/09/Xiaomi-POCO-X3-NFC-4G-blue.jpg class="imageClass"></td>
+        <td><img src=https://brain-images-ssl.cdn.dixons.com/2/5/10223752/l_10223752_001.jpg class="imageClass"></td>
+        <td><img src=https://images-na.ssl-images-amazon.com/images/I/81AqwYyZjzL._AC_SL1500_.jpg class="imageClass"></td>
+        <td><img src=https://www.gizmochina.com/wp-content/uploads/2021/03/cats-15-500x500.jpg class="imageClass"></td>
       </tr>
       <tr id="price">
         <td>£623.00</td>
@@ -53,6 +55,8 @@
 <input type="text" id="message" name="message"><br><br>
 <input type="submit" value="Submit" id="submit">
 </form>
+
+<button onclick="toggleImage()">Remove Images</button>
 </body>
 <footer>
     <p id="footerName">James's Phone Shop</p> 
@@ -84,5 +88,21 @@
           getLinks[i].className = "linkClass"
         }
     }
+
+    const toggleImage = function(){
+
+        let getImages = document.querySelectorAll(".imageClass")
+        for(let i = 0; i < getImages.length; i++){
+
+            if (getImages[i].style.display === "none") {
+                getImages[i].style.display = "block"
+  }         else {
+            getImages[i].style.display = "none"
+  }
+}
+
+
+}
+    
 
 </script>

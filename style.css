@@ -61,3 +61,14 @@ footer {
     margin-left: 110px;
     width: 80px;
 }
+
+button{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    margin: 30px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+}

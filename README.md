@@ -14,7 +14,7 @@ EX4.: Add links to existing Amazon products for each item in the table
 
 EX5.: Add a footer with the address and the name of your shop
 
-EX6.: Add a message board where the user can type a message in it (no real posting/saving features required!)
+EX6.: Add a message board where the user can type a message in it (no real posting/saving features required!)\
 
 
 

@@ -25,12 +25,13 @@ img{
 
 footer {
     text-align: center;
-    padding: 3px;
+    padding: 0px;
     background-color: rgb(160, 63, 31);
     color: white;
     width: 100%;
     position: fixed;
     bottom:0;
+    /* height: 70px; */
     
   }
 
@@ -48,6 +49,13 @@ footer {
   #message{
       width: 300px;
   }
+#footerName{
+    margin: 5px
+}
+
+#footerAddress{
+    margin: 5px  
+}
 
   #submit{
     margin-left: 110px;

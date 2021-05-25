@@ -55,7 +55,8 @@
 </form>
 </body>
 <footer>
-    <p>James's Phone Shop - Unit 8, 9 Wessex Gate Retail Park, Poole BH15 3TE</p> 
+    <p id="footerName">James's Phone Shop</p> 
+    <p id="footerAddress">Unit 8, 9 Wessex Gate Retail Park, Poole BH15 3TE</p>
 </footer>
 
 </html>
@@ -69,6 +70,11 @@
     const backgroundChange = function(){
        const body = document.querySelector("body") 
        body.style.backgroundColor = "red"
+    }
+
+    const footerChange = function(){
+       const footer = document.querySelector(".p, #footerAddress") 
+       footer.innerText = "This text has been changed"
     }
 
 </script>

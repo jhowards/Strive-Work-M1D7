@@ -1,5 +1,7 @@
 # Strive-Work-M1D7
 # Summary
+
+You have been assigned to the creation of a Smartphone Shop Website. The homepage you're about to write is just a showcase of the products of the shop with some extra information. No shopping cart / checkout features are required.
 Complete exercises from 1 to 6 with just plain HTML
 
 
